@@ -1,5 +1,5 @@
 %define module   MooseX-Params-Validate
-%define version    0.10
+%define version    0.12
 %define release    %mkrel 1
 
 Name:       perl-%{module}
