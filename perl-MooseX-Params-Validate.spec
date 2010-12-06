@@ -21,6 +21,7 @@ BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(Sub::Exporter)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::Fatal)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
