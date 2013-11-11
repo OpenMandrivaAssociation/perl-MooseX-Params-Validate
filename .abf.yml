@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-Params-Validate-0.16.tar.gz: 23325d65b3f2c34bf14c83145c4ab20029e164b9
 sources:
-  "MooseX-Params-Validate-0.16.tar.gz": 23325d65b3f2c34bf14c83145c4ab20029e164b9
+  MooseX-Params-Validate-0.18.tar.gz: 701de779ec160573586ca3c458d9919056f071e3
