@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-Params-Validate
-%define upstream_version 0.18
+%define upstream_version 0.21
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	An extension of Params::Validate for using Moose's types
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Params-Validate-%{upstream_version}.tar.gz
+Url:		https://github.com/moose/MooseX-Params-Validate
+Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/MooseX-Params-Validate-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
