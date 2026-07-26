@@ -1,15 +1,13 @@
 %define upstream_name    MooseX-Params-Validate
-%define upstream_version 0.21
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.21
+Release:	2
 
 Summary:	An extension of Params::Validate for using Moose's types
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/moose/MooseX-Params-Validate
-Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/MooseX-Params-Validate-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/MooseX-Params-Validate-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -34,7 +32,7 @@ You might also want to explore 'MooseX::Method::Signatures' and
 'MooseX::Declare'
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -75,8 +73,7 @@ make test
 * Thu Jul 09 2009 Jérôme Quelin <jquelin@mandriva.org> 0.120.0-1mdv2010.0
 + Revision: 393831
 - adding missing buildrequires:
-- using %%perl_convert_version
-- fixed license field
+- using %0.21 fixed license field
 
   + Guillaume Rousse <guillomovitch@mandriva.org>
     - update to new version 0.12
